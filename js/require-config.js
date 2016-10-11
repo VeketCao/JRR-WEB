@@ -1,9 +1,9 @@
 /**
- * Created by Veket on 2016/10/11.
+ * Created by Veket on 2015/9/28.
  */
-var CONFIG={
+var CONTAIN={
     REQUIRE:{
-        'path':{
+        'paths':{
             'jquery':'lib/jquery/jquery.min',
             'text':'lib/require/text.min',
             'css':'lib/require/css.min',
@@ -12,9 +12,9 @@ var CONFIG={
             'app':'js/app-util'
         },
         'shim':{
-            'jquery':{'exports':'$'},
+            'jquery':{'exports':'$'}
         }
     }
 };
 
-require.config(CONFIG.REQUIRE);
+require.config(CONTAIN.REQUIRE);

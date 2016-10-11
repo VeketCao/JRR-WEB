@@ -11,3 +11,6 @@ html,body{ width:100%; height:100%;}
 /**********************
 *布局公共样式[header|nav|body|footer]
 **********************/
+
+.nav ul{height: 30px;margin:10px;}
+.nav ul li{float:left;padding: 0px 10px;}
